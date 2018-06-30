@@ -1,0 +1,8 @@
+page-home {
+    $dark:#222;
+    $danger:#d74b4b;
+
+    .toolbar-background {background: linear-gradient(to right, $dark 55%, $danger 140%);}
+
+    .toolbar-title {color:white}
+}

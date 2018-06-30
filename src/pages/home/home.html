@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title class="gradient">
+      TYT Soundboard
+    </ion-title>
+      <ion-buttons end><button ion-button name="ion-search" color="dark"></button></ion-buttons> 
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-card>
+        <ion-card-header>
+            Header
+        </ion-card-header>
+        <ion-card-content>
+            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.        
+        </ion-card-content>
+        <ion-item>
+            <ion-grid><ion-row><ion-col id="playAudioButton" ion-button (click)="playAudio()"><ion-icon name="play" color="danger"></ion-icon></ion-col><ion-col ion-button><ion-icon color="danger" name="star"></ion-icon></ion-col></ion-row></ion-grid>
+</ion-item>
+    </ion-card>
+
+</ion-content>
